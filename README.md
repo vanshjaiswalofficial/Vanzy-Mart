@@ -21,5 +21,5 @@ It features a modern layout, organized product sections, and a minimal UI suitab
 ## 🎯 Purpose
 This project was created to practice front-end design skills and to demonstrate UI/UX understanding in a portfolio-friendly format.
 
-## © Copyright
+
 © 2025 Vanzymart – All Rights Reserved.
