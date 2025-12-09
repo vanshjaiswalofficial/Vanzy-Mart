@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in | Vanzy-Mart</title>
+
+    <link rel="shortcut icon" href="Assets/vanzy-favicon.png" type="image/x-icon" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+
+        body{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            font-family: "Outfit", sans-serif;
+        }
+
+        p{
+            color: white !important;
+        }
+
+        .signin{
+            height: 600px;
+            width: 600px;
+            background-color: black;
+            margin-top: 4%;
+            display: flex;
+            box-shadow: 0px 3px 6px white;
+        }
+
+        .loginimg>img{
+            background-color: gray;
+            height: 600px;
+            width: 250px;
+        }
+
+        .head{
+            width: 300px;
+            height: 30px;
+            text-align: center;
+            margin-left: 22px;
+            border-bottom: 0.5px solid white;
+        }
+
+        .info>p{
+            margin: 30px 5px 5px 45px;
+        }
+
+        .info>input{
+            width: 250px;
+            height: 30px;
+            margin: 5px 5px 5px 45px;
+            font-size: 15px;
+        }
+
+        .info>button{
+            height: 30px;
+            width: 250px;
+            margin: 30px 10px 10px 47px;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            border: 1px solid white;
+        }
+
+        button:hover{
+            background-color: white;
+            color: black;
+        }
+
+        @media (max-width: 599px){
+            
+            body{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            font-family: "Outfit", sans-serif;
+         }
+
+         p{
+            color: white !important;
+            font-size: 10px;
+         }
+
+         .signin{
+            height: 400px;
+            width: 300px;
+            background-color: black;
+            margin-top: 50%;
+            display: flex;
+            box-shadow: 0px 3px 6px white;
+         }
+  
+         .loginimg>img{
+            background-color: gray;
+            height: 400px;
+            width: 70px;
+         }
+
+         .head{
+            width: 200px;
+            height: 30px;
+            text-align: center;
+            margin-left: 22px;
+            border-bottom: 0.5px solid white;
+         }
+
+         .info>p{
+            margin: 20px 5px 5px 45px;
+         }
+
+         .info>input{
+            width: 140px;
+            height: 15px;
+            margin: 5px 5px 5px 45px;
+            font-size: 15px;
+         }
+
+         .info>button{
+            height: 20px;
+            width: 100px;
+            font-size: 10px;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            border: 1px solid white;
+            margin: 10px 5px 5px 65px;
+         }
+
+         button:hover{
+            background-color: white;
+            color: black;
+         }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="signin">
+        <div class="loginimg">
+            <img src="Assets/lgnslideimg.png">
+        </div>
+
+        <div class="lgndetails">
+            <div class="head">
+                <p>Let’s Get You Logged In</p>
+            </div>
+
+            <div class="info">
+                <p>Enter your 10 digit mobile number</p>
+                <input type="tel" placeholder="+91" pattern="[0-9]" maxlength="10">
+                <p>By continuing, you agree to our Terms,<br> Refunds and Privacy Policy</p>
+                <button type="submit" onclick="alert(`OTP Sent Successfully`)">Continue</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
