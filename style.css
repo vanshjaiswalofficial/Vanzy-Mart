@@ -105,6 +105,13 @@ button:hover{
     align-items: center;
 }
 
+.signin>a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
 .signin>a>i{
     font-size: 20px;
     margin-right: 5px;
@@ -314,7 +321,7 @@ button:hover{
 
 @media (max-width: 599px){
     .pro-card{
-        margin: 30px;
+        margin: 20px;
     }
 }
 
